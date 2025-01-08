@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://cengchat.onrender.com/","http://localhost:5173",
+    origin: "http://cengchat.onrender.com/",
     credentials: true,
   })
 );
